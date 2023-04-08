@@ -8,7 +8,9 @@ import {
   PhoneIcon,
   CodeIcon,
   ServerIcon,
-  ChatIcon
+  ChatIcon,
+  BookOpenIcon,
+  RssIcon
 } from '@heroicons/react/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
@@ -433,6 +435,7 @@ export const socialLinks: Social[] = [
   {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/2729677/hiteshkumar-vaghasiya'},
   {label: 'Twitter', Icon: TwitterIcon, href: 'https://www.twitter.com/iamhitya/'},
   {label: 'Hackerrank', Icon: CodeIcon, href: 'https://www.hackerrank.com/iamhitya/'},
+  {label: 'HashNode', Icon: RssIcon, href: 'https://iamhitya.hashnode.dev/'},
   {label: 'Credly', Icon: ServerIcon, href: 'https://www.credly.com/users/iamhitya/'},
   {label: 'WhatsApp', Icon: ChatIcon, href: 'https://wa.me/919898273327'},
   {label: 'Email', Icon: MailIcon, href: 'mailto:hiteshvaghasiya1990@gmail.com'},
