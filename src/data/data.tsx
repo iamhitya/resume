@@ -43,8 +43,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'Hiteshkumar Vaghasiya',
-  description: "Hiteshkumar's resume",
+  title: 'Hiteshkumar - Resume',
+  description: "Welcome to my personal resume website! Here you can learn more about my skills, experience, and qualifications. Take a look and feel free to reach out if you have any questions or opportunities to collaborate. I look forward to connecting with you.",
 };
 
 /**
