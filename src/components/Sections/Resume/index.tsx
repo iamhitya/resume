@@ -21,7 +21,7 @@ const Resume: FC = memo(() => {
           ))}
         </ResumeSection>
         <ResumeSection title="Skills">
-          <p className="pb-8">My software and application expertise is very diverse and includes .NET Framework, C#, MVC, .NET Core, Web API, MS SQL Server, MongoDB, Entity Framework, LINQ, Angular, Vue.js, Azure, HTML5, JavaScript, JQuery, CSS, and nopCommerce.</p>
+          <p className="pb-8">My software and application expertise is very diverse and includes <b>.NET Framework, C#, MVC, .NET Core, Web API, MS SQL Server, MongoDB, PostgreSQL, Entity Framework, LINQ, Angular, Vue.js, <a href='https://www.credly.com/users/iamhitya/badges' target='_blank' className="text-blue-600">Azure</a>, HTML5, JavaScript, JQuery, CSS, and nopCommerce</b>.</p>
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
             {skills.map((skillgroup, index) => (
               <SkillGroup key={`${skillgroup.name}-${index}`} skillGroup={skillgroup} />

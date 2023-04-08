@@ -123,36 +123,7 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
   {
-    name: '',
-    skills: [
-      {
-        name: 'C#',
-        level: 10,
-      },
-      {
-        name: '.NET Core',
-        level: 10,
-      },
-      {
-        name: 'Microservices',
-        level: 9,
-      },
-      {
-        name: 'Web API',
-        level: 9,
-      },
-      {
-        name: 'Microsoft Azure',
-        level: 8,
-      },
-      {
-        name: 'nopCommerce',
-        level: 9,
-      },
-    ],
-  },
-  {
-    name: '',
+    name: 'Frontend',
     skills: [
       {
         name: 'Angular',
@@ -164,15 +135,32 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'JavaScript, JQuery',
-        level: 9,
+        level: 10,
       },
       {
         name: 'HTML 5 & CSS 3',
         level: 10,
       },
+    ],
+  },
+  {
+    name: 'Backend',
+    skills: [
       {
-        name: 'MVC',
+        name: '.NET Core',
         level: 10,
+      },
+      {
+        name: 'Microservices',
+        level: 9,
+      },
+      {
+        name: 'Web API',
+        level: 10,
+      },
+      {
+        name: 'nopCommerce',
+        level: 9,
       },
     ],
   },
@@ -194,7 +182,7 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: 'Spoken languages',
+    name: 'Spoken Languages',
     skills: [
       {
         name: 'English',
