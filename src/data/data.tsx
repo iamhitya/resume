@@ -9,7 +9,6 @@ import {
   CodeIcon,
   ServerIcon,
   ChatIcon,
-  BookOpenIcon,
   RssIcon
 } from '@heroicons/react/outline';
 
