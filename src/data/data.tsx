@@ -403,6 +403,11 @@ export const contact: ContactSection = {
   description: 'My inbox is always open. Whether you have a question or just want to say hello, I\'ll try my best to get back to you!',
   items: [
     {
+      type: ContactType.Phone,
+      text: '+91 - 9898273327',
+      href: 'tel:919898273327',
+    },
+    {
       type: ContactType.Email,
       text: 'hiteshvaghasiya1990@gmail.com',
       href: 'mailto:hiteshvaghasiya1990@gmail.com',
