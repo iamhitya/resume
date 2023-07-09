@@ -8,8 +8,7 @@ import {
   PhoneIcon,
   CodeIcon,
   ServerIcon,
-  ChatIcon,
-  RssIcon
+  ChatIcon
 } from '@heroicons/react/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
@@ -76,7 +75,7 @@ export const heroData: Hero = {
         Crazy about developing stuff from <strong className="text-stone-100">0 to 1</strong>.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm <strong className="text-stone-100">detail-oriented</strong> and <strong className="text-stone-100">self-driven</strong> full stack software engineer with a <strong className="text-stone-100">quality-driven</strong> mindset, committed to <strong className="text-stone-100">writing clean, maintainable code</strong> and <strong className="text-stone-100">conducting rigorous testing</strong> to ensure exceptional software performance. 🚀
+        I'm <strong className="text-stone-100">detail-oriented</strong> and <strong className="text-stone-100">self-driven</strong> full-stack software engineer with a <strong className="text-stone-100">quality-driven</strong> mindset, committed to <strong className="text-stone-100">writing clean, maintainable code</strong> and <strong className="text-stone-100">conducting rigorous testing</strong> to ensure exceptional software performance. 🚀
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         Throughout my student and professional life, I have been fascinated by Computers and Technology. I love to work where I have ample opportunity to explore new technologies and develop products end to end.
@@ -439,7 +438,6 @@ export const socialLinks: Social[] = [
   {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/2729677/hiteshkumar-vaghasiya'},
   {label: 'Twitter', Icon: TwitterIcon, href: 'https://www.twitter.com/iamhitya/'},
   {label: 'Hackerrank', Icon: CodeIcon, href: 'https://www.hackerrank.com/iamhitya/'},
-  // {label: 'HashNode', Icon: RssIcon, href: 'https://iamhitya.hashnode.dev/'},
   {label: 'Credly', Icon: ServerIcon, href: 'https://www.credly.com/users/iamhitya/'},
   {label: 'WhatsApp', Icon: ChatIcon, href: 'https://wa.me/919898273327'},
   {label: 'Email', Icon: MailIcon, href: 'mailto:hiteshvaghasiya1990@gmail.com'},
