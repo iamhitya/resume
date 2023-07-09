@@ -73,10 +73,10 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        Crazy about developing stuff from <strong className="text-stone-100">0 to 1</strong>. 🚀
+        Crazy about developing stuff from <strong className="text-stone-100">0 to 1</strong>.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm <strong className="text-stone-100">💻 Full Stack Software Engineer</strong> passionate about building clean web applications with intuitive functionalities. I enjoy the process of turning ideas into reality using creative solutions.
+        I'm <strong className="text-stone-100">detail-oriented</strong> and <strong className="text-stone-100">self-driven</strong> full stack software engineer with a <strong className="text-stone-100">quality-driven</strong> mindset, committed to <strong className="text-stone-100">writing clean, maintainable code</strong> and <strong className="text-stone-100">conducting rigorous testing</strong> to ensure exceptional software performance. 🚀
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         Throughout my student and professional life, I have been fascinated by Computers and Technology. I love to work where I have ample opportunity to explore new technologies and develop products end to end.
@@ -183,19 +183,19 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: 'Spoken Languages',
+    name: 'Cloud Services',
     skills: [
       {
-        name: 'English',
+        name: 'Microsoft Azure',
+        level: 8,
+      },
+      {
+        name: 'Azure Functions',
         level: 10,
       },
       {
-        name: 'Hindi',
-        level: 10,
-      },
-      {
-        name: 'Gujarati',
-        level: 10,
+        name: 'Amazon Cloud services (AWS)',
+        level: 5,
       },
     ],
   },
@@ -439,7 +439,7 @@ export const socialLinks: Social[] = [
   {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/2729677/hiteshkumar-vaghasiya'},
   {label: 'Twitter', Icon: TwitterIcon, href: 'https://www.twitter.com/iamhitya/'},
   {label: 'Hackerrank', Icon: CodeIcon, href: 'https://www.hackerrank.com/iamhitya/'},
-  {label: 'HashNode', Icon: RssIcon, href: 'https://iamhitya.hashnode.dev/'},
+  // {label: 'HashNode', Icon: RssIcon, href: 'https://iamhitya.hashnode.dev/'},
   {label: 'Credly', Icon: ServerIcon, href: 'https://www.credly.com/users/iamhitya/'},
   {label: 'WhatsApp', Icon: ChatIcon, href: 'https://wa.me/919898273327'},
   {label: 'Email', Icon: MailIcon, href: 'mailto:hiteshvaghasiya1990@gmail.com'},
