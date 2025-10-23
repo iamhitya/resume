@@ -11,7 +11,7 @@ const Resume: FC = memo(() => {
     <Section className="bg-neutral-100" sectionId={SectionId.Resume}>
       <div className="flex flex-col divide-y-2 divide-neutral-300">
         <ResumeSection title="Skills">
-          <p className="pb-8">My software and application expertise is very diverse and includes <b>.NET Framework, .NET Core, C#, MVC, Web API, MS SQL Server, MongoDB, PostgreSQL, Entity Framework, LINQ, Angular, Vue.js, <a href='https://www.credly.com/users/iamhitya/badges' target='_blank' className="text-blue-600">Azure</a>, HTML5, JavaScript, JQuery, CSS, and nopCommerce</b>.</p>
+          <p className="pb-8">My software and application expertise is very diverse and includes <b>.NET Framework, .NET Core, C#, MVC, Web API, MS SQL Server, MongoDB, PostgreSQL, Entity Framework, LINQ, Angular, Vue.js, <a href='https://www.credly.com/users/iamhitya/badges' target='_blank' className="text-blue-600">Azure</a>, HTML5, JavaScript, JQuery, CSS,</b> and <b><a href='https://www.nopcommerce.com/en/hiteshkumar-vaghasiya' target='_blank' className="text-blue-600">nopCommerce</a></b>.</p>
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
             {skills.map((skillgroup, index) => (
               <SkillGroup key={`${skillgroup.name}-${index}`} skillGroup={skillgroup} />
