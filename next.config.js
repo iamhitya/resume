@@ -23,7 +23,7 @@ const nextConfig = {
   // Note: 'svgo' is not a valid top-level Next.js config option. If you need
   // SVG optimization, configure it in your build pipeline or an image loader.
   reactStrictMode: true,
-  swcMinify: true,
+  swcMinify: false, // changed from true -> false to avoid WASM/native SWC runtime errors in CI
   trailingSlash: false,
   images: {
     domains: ['images.unsplash.com', 'source.unsplash.com'],
