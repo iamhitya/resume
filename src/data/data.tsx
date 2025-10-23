@@ -4,11 +4,12 @@ import {
   CodeIcon,
   DownloadIcon,
   MailIcon,
-  MapIcon,
+  // MapIcon,
   PhoneIcon,
   ServerIcon,
-  UserIcon,
-  UsersIcon} from '@heroicons/react/outline';
+  UserIcon
+  // UsersIcon
+} from '@heroicons/react/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
