@@ -1,29 +1,28 @@
 import {
-  UserIcon,
-  UsersIcon,
   CalendarIcon,
-  DownloadIcon,
-  MapIcon,
-  MailIcon,
-  PhoneIcon,
+  ChatIcon,
   CodeIcon,
+  DownloadIcon,
+  MailIcon,
+  MapIcon,
+  PhoneIcon,
   ServerIcon,
-  ChatIcon
-} from '@heroicons/react/outline';
+  UserIcon,
+  UsersIcon} from '@heroicons/react/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.jpg';
-import porfolioImage1 from '../images/portfolio/azure-fundamentals.png';
-import porfolioImage2 from '../images/portfolio/azure-data-fundamentals.png';
 import porfolioImage3 from '../images/portfolio/azure-ai-fundamentals.png';
-import porfolioImage4 from '../images/portfolio/nopcommerce.png';
+import porfolioImage2 from '../images/portfolio/azure-data-fundamentals.png';
+import porfolioImage1 from '../images/portfolio/azure-fundamentals.png';
 import porfolioImage5 from '../images/portfolio/csharp.png';
-import porfolioImage6 from '../images/portfolio/sql.png';
-import porfolioImage7 from '../images/portfolio/python.png';
 import porfolioImage8 from '../images/portfolio/ml.png';
+import porfolioImage4 from '../images/portfolio/nopcommerce.png';
+import porfolioImage7 from '../images/portfolio/python.png';
+import porfolioImage6 from '../images/portfolio/sql.png';
 import profilepic from '../images/profilepic.png';
 import testimonialImage from '../images/testimonial.jpg';
 import {
@@ -105,14 +104,14 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `I have over 9+ years of development and implementation experience on projects ranging from small departmental 
+  description: `I have over 11 years of development and implementation experience on projects ranging from small departmental 
   applications to complex enterprise solutions in multi-national corporate environments.
   `,
   aboutItems: [
-    {label: 'Full Name', text: 'Hiteshkumar Labhubhai Vaghasiya', Icon: UserIcon},
-    {label: 'Location', text: 'Vadodara, Gujarat, India', Icon: MapIcon},
+    {label: 'Full Name', text: 'Hiteshkumar Vaghasiya', Icon: UserIcon},
+    // {label: 'Location', text: 'Vadodara, Gujarat, India', Icon: MapIcon},
     {label: 'Date of Birth', text: '05/April/1990', Icon: CalendarIcon},
-    {label: 'Marital Status', text: 'Married', Icon: UsersIcon},
+    // {label: 'Marital Status', text: 'Married', Icon: UsersIcon},
     {label: 'Email', text: 'hiteshvaghasiya1990@gmail.com', Icon: MailIcon},
     {label: 'Contact No', text: '+91 - 9898273327', Icon: PhoneIcon},
   ],
@@ -269,19 +268,19 @@ export const education: TimelineItem[] = [
     location: 'SSSDIIT - Saurashtra University, Junagadh',
     title: 'Bachelor of Computer Applications (BCA)',
     content: <p></p>,
-  },
-  {
-    date: 'April 2005 - March 2007',
-    location: 'Gujarat Secondary and Higher Secondary Education Board',
-    title: 'HSC',
-    content: <p></p>,
-  },
-  {
-    date: 'April 2004 - March 2005',
-    location: 'Gujarat Secondary and Higher Secondary Education Board',
-    title: 'SSC',
-    content: <p></p>,
-  },
+  }
+  // {
+  //   date: 'April 2005 - March 2007',
+  //   location: 'Gujarat Secondary and Higher Secondary Education Board',
+  //   title: 'HSC',
+  //   content: <p></p>,
+  // },
+  // {
+  //   date: 'April 2004 - March 2005',
+  //   location: 'Gujarat Secondary and Higher Secondary Education Board',
+  //   title: 'SSC',
+  //   content: <p></p>,
+  // },
 ];
 
 export const experience: TimelineItem[] = [
@@ -396,7 +395,6 @@ export const testimonial: TestimonialSection = {
 /**
  * Contact section
  */
-
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
   description: 'My inbox is always open. Whether you have a question or just want to say hello, I\'ll try my best to get back to you!',

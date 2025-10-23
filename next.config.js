@@ -20,11 +20,9 @@ const nextConfig = {
   pageExtensions: ['tsx', 'mdx', 'ts'],
   poweredByHeader: false,
   productionBrowserSourceMaps: false,
-  svgo: {
-    multipass: true,
-    plugins: ['removeDimensions'],
-  },
-  strictMode: true,
+  // Note: 'svgo' is not a valid top-level Next.js config option. If you need
+  // SVG optimization, configure it in your build pipeline or an image loader.
+  reactStrictMode: true,
   swcMinify: true,
   trailingSlash: false,
   images: {
