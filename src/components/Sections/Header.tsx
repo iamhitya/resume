@@ -12,7 +12,7 @@ export const headerID = 'headerNav';
 const Header: FC = memo(() => {
   const [currentSection, setCurrentSection] = useState<SectionId | null>(null);
   const navSections = useMemo(
-    () => [SectionId.About, SectionId.Resume, SectionId.Certifications, SectionId.Testimonials, SectionId.Contact],
+    () => [SectionId.Hero, SectionId.About, SectionId.Skills, SectionId.Experience, SectionId.Education, SectionId.Certifications, SectionId.Testimonials, SectionId.Contact],
     [],
   );
 
@@ -124,10 +124,11 @@ const NavItem: FC<{
   inactiveClass: string;
   onClick?: () => void;
 }> = memo(({section, current, inactiveClass, activeClass, onClick}) => {
+  const displayName = section === 'hero' ? 'Home' : section;
   return (
     <Link href={`#${section}`} passHref>
       <a className={classNames(current ? activeClass : inactiveClass)} key={section} onClick={onClick}>
-        {section}
+        {displayName}
       </a>
     </Link>
   );
