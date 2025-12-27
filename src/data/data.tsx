@@ -43,7 +43,7 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'Hiteshkumar - Resume',
+  title: 'Hiteshkumar | GenAI .NET Developer Resume',
   description: "Welcome to my personal resume website! Here you can learn more about my skills, experience, and qualifications. Take a look and feel free to reach out if you have any questions or opportunities to collaborate. I look forward to connecting with you.",
 };
 
@@ -139,7 +139,7 @@ export const skills: SkillGroup[] = [
         level: 10,
       },
       {
-        name: 'HTML 5 & CSS 3',
+        name: 'HTML5 & CSS3',
         level: 10,
       },
     ],
@@ -187,14 +187,14 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Microsoft Azure',
+        level: 9,
+      },
+      {
+        name: 'Amazon Web Services (AWS)',
         level: 8,
       },
       {
-        name: 'Azure Functions',
-        level: 10,
-      },
-      {
-        name: 'Amazon Cloud services (AWS)',
+        name: 'Google Cloud Platform (GCP)',
         level: 5,
       },
     ],
@@ -287,37 +287,45 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'June 2022 - Present',
+    date: 'June 2023 - Present',
+    location: 'Pearl Technologies - Remote',
+    title: 'Senior .NET Developer',
+    content: (
+      <p>
+        Roles and Responsibilities:<br/>
+        • Designed event-driven microservices and managed Kafka topics with Azure integration for Customs services, enhancing data communication, scalability, and system reliability.<br/>
+        • Developed LLM-powered .NET APIs integrated with OpenAI and Azure Cognitive Services for document analysis and automation workflows.<br/>
+        • Developed offline document classifiers using locally hosted LLMs on Ollama, combined with OpenAI embeddings for accurate document tagging and automated workflow routing.<br/>
+        • Led end-to-end migration of a legacy system to .NET Core 9, enhancing scalability, performance, and maintainability.<br/>
+        • Participated in database schema design and data migration using SQL Server and MongoDB to support new modules and optimize data storage.<br/>
+        • Identified and resolved performance bottlenecks using dotTrace and dotMemory profiler, improving application efficiency and reducing function and database calls by 15-30%.
+      </p>
+    ),
+  },
+  {
+    date: 'June 2022 - June 2023',
     location: 'InnRoad - Hyderabad',
     title: 'Senior Software Engineer',
     content: (
       <p>
         Roles and Responsibilities:<br/>
-        • Maintaining and upgrading existing systems<br/>
-        • Writing and implementing efficient code<br/>
-        • Testing and evaluating new programs<br/>
-        • Collaborating with front-end, and mobile app developers<br/>
-        • Design solutions using common design patterns with a range of design tools and techniques<br/>
-        • Writing Unit/Integration test cases for a large system with lots of external and internal dependencies
+        • Integrated third-party APIs for payment processing and property service management.<br/>
+        • Implemented AWS services such as S3 and Lambda for secure file storage, serverless processing, and asynchronous workflows.<br/>
+        • Collaborated with QA to define automated test scenarios, improving regression coverage for critical modules.
       </p>
     ),
   },
   {
     date: 'July 2019 - June 2022',
     location: 'GoodCare IT Management Services Pvt. Ltd. - Vadodara',
-    title: 'Senior .Net Developer',
+    title: 'Senior .NET Developer',
     content: (
       <p>
         Roles and Responsibilities:<br/>
-        • Researching, designing, implementing, and managing software programs<br/>
-        • Testing and evaluating new programs<br/>
-        • Design solutions using common design patterns with a range of design tools and techniques<br/>
-        • Identifying areas for modification in existing programs and subsequently developing these modifications<br/>
-        • Writing and implementing efficient code<br/>
-        • Maintaining and upgrading existing systems<br/>
-        • Ensuring that junior staff delivers according to standards<br/>
-        • Help review team commits via pull requests<br/>
-        • Interact with project managers, business analysts, and stakeholders Prerequisites
+        • Developed and maintained backend systems using .NET Core and SQL Server, integrated MongoDB (NoSQL) for document-based data storage, and implemented Azure services for cloud hosting, data storage, and background processing.<br/>
+        • Enhanced legacy modules by rewriting them with modern technologies and adding new features.<br/>
+        • Conducted rigorous testing and evaluation of new programs to ensure high performance and usability.<br/>
+        • Collaborated with Product Owners, Scrum Masters, and technical leadership to define software solutions.
       </p>
     ),
   },
