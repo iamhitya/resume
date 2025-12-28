@@ -1,3 +1,5 @@
+/* eslint-disable object-curly-spacing */
+
 import {
   CalendarIcon,
   ChatIcon,
@@ -124,81 +126,100 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
   {
-    name: 'Frontend',
+    name: 'GenAI & AI Engineering',
     skills: [
-      {
-        name: 'Angular',
-        level: 9,
-      },
-      {
-        name: 'Vue.js',
-        level: 6,
-      },
-      {
-        name: 'JavaScript, JQuery',
-        level: 10,
-      },
-      {
-        name: 'HTML5 & CSS3',
-        level: 10,
-      },
-    ],
+      { name: 'OpenAI API', level: 9 },
+      { name: 'Azure OpenAI', level: 8 },
+      { name: 'Retrieval-Augmented Generation (RAG)', level: 7 },
+      { name: 'Vector Databases', level: 7 },
+      { name: 'Semantic Kernel', level: 7 },
+      { name: 'Prompt Engineering', level: 9 },
+      { name: 'Hugging Face', level: 7 },
+      { name: 'Amazon Bedrock', level: 6 },
+      { name: 'Ollama', level: 6 },
+      { name: 'AutoGen', level: 6 }
+    ]
   },
   {
-    name: 'Backend',
+    name: 'Backend Development',
     skills: [
-      {
-        name: '.NET Core',
-        level: 10,
-      },
-      {
-        name: 'Microservices',
-        level: 9,
-      },
-      {
-        name: 'Web API',
-        level: 10,
-      },
-      {
-        name: 'nopCommerce',
-        level: 9,
-      },
-    ],
+      { name: '.NET Core', level: 10 },
+      { name: 'ASP.NET', level: 9 },
+      { name: 'C#', level: 10 },
+      { name: 'VB.NET', level: 7 },
+      { name: 'Web API', level: 9 },
+      { name: 'REST APIs', level: 9 },
+      { name: 'GraphQL', level: 6 },
+      { name: 'Entity Framework', level: 9 },
+      { name: 'LINQ', level: 9 },
+      { name: 'Microservices Architecture', level: 8 },
+      { name: 'Domain-Driven Design (DDD)', level: 7 },
+      { name: 'OAuth 2.0', level: 7 },
+      { name: 'Kafka', level: 7 },
+      { name: 'Confluent Cloud', level: 6 }
+    ]
   },
   {
-    name: 'Database',
+    name: 'Frontend Development',
     skills: [
-      {
-        name: 'Microsoft SQL Server',
-        level: 10,
-      },
-      {
-        name: 'MongoDB',
-        level: 8,
-      },
-      {
-        name: 'PostgreSQL',
-        level: 9,
-      },
-    ],
+      { name: 'Angular', level: 8 },
+      { name: 'Vue.js', level: 7 },
+      { name: 'JavaScript', level: 9 },
+      { name: 'JQuery', level: 7 },
+      { name: 'HTML5', level: 9 },
+      { name: 'CSS3', level: 8 },
+      { name: 'Bootstrap', level: 8 }
+    ]
   },
   {
-    name: 'Cloud Services',
+    name: 'Databases',
     skills: [
-      {
-        name: 'Microsoft Azure',
-        level: 9,
-      },
-      {
-        name: 'Amazon Web Services (AWS)',
-        level: 8,
-      },
-      {
-        name: 'Google Cloud Platform (GCP)',
-        level: 5,
-      },
-    ],
+      { name: 'Microsoft SQL Server', level: 9 },
+      { name: 'MongoDB', level: 7 },
+      { name: 'PostgreSQL', level: 7 },
+      { name: 'Azure Cosmos DB', level: 7 },
+      { name: 'Google Firestore', level: 6 }
+    ]
   },
+  {
+    name: 'Cloud Technologies',
+    skills: [
+      { name: 'Microsoft Azure (App Services, Azure Functions, Active Directory, Storage Accounts, Service Bus, Key Vault, Redis Cache, Data Factory, ARM Templates, Cognitive Services)', level: 9 },
+      { name: 'Amazon Web Services (AWS)', level: 7 },
+      { name: 'Google Cloud Platform (GCP)', level: 6 }
+    ]
+  },
+  {
+    name: 'DevOps, CI/CD, and Source Control',
+    skills: [
+      { name: 'Git', level: 9 },
+      { name: 'GitHub', level: 8 },
+      { name: 'GitHub Actions', level: 8 },
+      { name: 'Azure DevOps Pipelines', level: 7 },
+      { name: 'Bitbucket', level: 6 },
+      { name: 'TFS', level: 6 },
+      { name: 'CI/CD pipelines', level: 8 },
+      { name: 'Docker', level: 8 },
+      { name: 'Kubernetes', level: 7 }
+    ]
+  },
+  {
+    name: 'Testing and Frameworks',
+    skills: [
+      { name: 'xUnit', level: 7 },
+      { name: 'Unit Testing', level: 8 },
+      { name: 'Integration Testing', level: 7 },
+      { name: 'NopCommerce', level: 7 }
+    ]
+  },
+  {
+    name: 'Project Management and Agile Tools',
+    skills: [
+      { name: 'Agile/Scrum Methodologies', level: 8 },
+      { name: 'Azure DevOps', level: 7 },
+      { name: 'Jira', level: 7 }
+    ]
+  }
 ];
 
 /**
@@ -304,7 +325,7 @@ export const experience: TimelineItem[] = [
   },
   {
     date: 'June 2022 - June 2023',
-    location: 'InnRoad - Hyderabad',
+    location: 'InnRoad - Remote',
     title: 'Senior Software Engineer',
     content: (
       <p>
@@ -336,12 +357,10 @@ export const experience: TimelineItem[] = [
     content: (
       <p>
         Roles and Responsibilities:<br/>
-        • Involved in full Software Development Life Cycle right from requirements gathering, design, development, deployment, testing, and production support<br/>
-        • Collaborating with front-end, and mobile app developers<br/>
-        • Design web promotion server backup and template based on the marketing team's requirements<br/>
-        • Provide production support for content migration releases. Assist with the migration and publication of content on the live site.<br/>
-        • Improving functionality<br/>
-        • Ensuring that junior staff delivers according to standards
+        • Collaborated closely with front-end and mobile app developers to enhance application performance and maintain seamless cross-platform integration, reducing integration issues by 30%.<br/>
+        • Provided production support for content migration and live site publication, achieving 100% accuracy and minimizing downtime during releases.<br/>
+        • Improved overall application functionality and performance, increasing response times and user satisfaction.<br/>
+        • Mentored junior developers to maintain coding standards and best practices, improving team efficiency and code quality.
       </p>
     ),
   },
@@ -352,12 +371,11 @@ export const experience: TimelineItem[] = [
     content: (
       <p>
         Roles and Responsibilities:<br/>
-        • Design, code, test and manage various applications<br/>
-        • nopCommerce customization and plugin development<br/>
-        • Team Leader<br/>
-        • Involved in full Software Development Life Cycle right from requirements gathering, design, development, deployment, testing, and production support<br/>
-        • Design web promotion server backup and template based on the marketing team's requirements<br/>
-        • Work closely with other senior software engineers
+        • Designed, developed, and managed web applications using the .NET framework, MVC architecture, and nopCommerce platform.<br/>
+        • Performed nopCommerce customization and plugin development to enhance e-commerce functionality and user experience.<br/>
+        • Led a development team, providing technical guidance, task allocation, and code review to ensure high-quality deliverables.<br/>
+        • Collaborated with the marketing team to design web promotion templates and implement automated server backups based on campaign requirements.<br/>
+        • Ensured code quality, maintainability, and scalability through adherence to best practices, SOLID principles, and Agile methodologies.
       </p>
     ),
   },
@@ -368,11 +386,13 @@ export const experience: TimelineItem[] = [
     content: (
       <p>
         Roles and Responsibilities:<br/>
-        • Upgrading, configuring, and debugging existing systems<br/>
-        • Involved in full Software Development Life Cycle right from requirements gathering, design, development, deployment, testing, and production support<br/>
-        • Work closely with other senior software engineers<br/>
-        • Support the production users and investigate issues in production<br/>
-        • Interact with project managers, business analysts, and stakeholders Prerequisites
+        • Developed and maintained web applications using ASP.NET Framework, ASPX, and classic ASP pages to support core business operations.<br/>
+        • Upgraded, configured, and debugged existing systems, improving performance and reducing production issues by 20%.<br/>
+        • Involved in all phases of the Software Development Life Cycle (SDLC), including requirements gathering, design, development, testing, deployment, and maintenance.<br/>
+        • Collaborated with senior software engineers to design scalable, maintainable, and high-performing applications.<br/>
+        • Provided production support and resolved critical issues, ensuring 99% application uptime and seamless user experience.<br/>
+        • Partnered with project managers, business analysts, and stakeholders to translate business needs into effective technical solutions.<br/>
+        • Improved system stability and reduced incident response time through proactive monitoring and debugging.
       </p>
     ),
   },
