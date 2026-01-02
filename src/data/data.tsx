@@ -198,7 +198,7 @@ export const skills: SkillGroup[] = [
       { name: 'Azure DevOps Pipelines', level: 7 },
       { name: 'Bitbucket', level: 6 },
       { name: 'TFS', level: 6 },
-      { name: 'CI/CD pipelines', level: 8 },
+      { name: 'CI/CD Pipelines', level: 8 },
       { name: 'Docker', level: 8 },
       { name: 'Kubernetes', level: 7 }
     ]
@@ -441,18 +441,18 @@ export const contact: ContactSection = {
     },
     {
       type: ContactType.LinkedIn,
-      text: 'https://www.linkedin.com/in/iamhitya/',
+      text: 'www.linkedin.com/in/iamhitya/',
       href: 'https://www.linkedin.com/in/iamhitya/',
     },
     {
       type: ContactType.Github,
-      text: 'https://github.com/iamhitya/',
+      text: 'www.github.com/iamhitya/',
       href: 'https://github.com/iamhitya/',
     },
     {
       type: ContactType.Twitter,
-      text: 'https://www.twitter.com/iamhitya/',
-      href: 'https://www.twitter.com/iamhitya/',
+      text: 'www.x.com/iamhitya/',
+      href: 'https://www.x.com/iamhitya/',
     },
   ],
 };
@@ -464,7 +464,7 @@ export const socialLinks: Social[] = [
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/iamhitya/'},
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/iamhitya/'},
   {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/2729677/hiteshkumar-vaghasiya'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://www.twitter.com/iamhitya/'},
+  {label: 'X', Icon: TwitterIcon, href: 'https://www.x.com/iamhitya/'},
   {label: 'Hackerrank', Icon: CodeIcon, href: 'https://www.hackerrank.com/iamhitya/'},
   {label: 'Credly', Icon: ServerIcon, href: 'https://www.credly.com/users/iamhitya/'},
   {label: 'WhatsApp', Icon: ChatIcon, href: 'https://wa.me/919898273327'},
