@@ -1,6 +1,7 @@
 /* eslint-env node */
 module.exports = {
-  siteUrl: 'https://iamhitya.github.io/Resume/',
+  // siteUrl: 'https://iamhitya.github.io/Resume/', GitHub Pages URL. Uncomment when using the GitHub Pages URL.
+  siteUrl: 'https://hiteshkumar.is-a.dev/',
   exclude: ['/404*', '/500*'],
   transform: async (config, path) => {
     return {
