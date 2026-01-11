@@ -59,6 +59,7 @@ export const SectionId = {
   Certifications: 'certifications',
   Skills: 'skills',
   Experience: 'experience',
+  Projects: 'projects',
   Education: 'education',
   Stats: 'stats',
   Testimonials: 'testimonials',
@@ -393,6 +394,72 @@ export const experience: TimelineItem[] = [
         • Provided production support and resolved critical issues, ensuring 99% application uptime and seamless user experience.<br/>
         • Partnered with project managers, business analysts, and stakeholders to translate business needs into effective technical solutions.<br/>
         • Improved system stability and reduced incident response time through proactive monitoring and debugging.
+      </p>
+    ),
+  },
+];
+
+/**
+ * Projects section
+ */
+export const projects: TimelineItem[] = [
+  {
+    date: 'Jun 2023 - Present',
+    location: 'Shipment Management System',
+    title: 'Customs Dashboard',
+    content: (
+      <p>
+        The Customs Dashboard is a comprehensive solution designed to streamline the management of cross-country shipments, enabling efficient tracking, compliance, and real-time visibility throughout the shipping process.<br/>
+        • Refactor and modernize legacy modules using advanced technologies to enhance functionality and scalability.<br/>
+        • Integrated Ollama for running local LLMs and enabling offline processing for confidential workflows.<br/>
+        • Collaborate with technical leadership to conceptualize and implement software solutions for new product features.<br/>
+        • Provided technical mentorship to junior developers through code reviews, best practices, and troubleshooting.<br/>
+        • Enhanced database query execution speed through indexing and normalization.
+      </p>
+    ),
+  },
+  {
+    date: 'Jun 2022 - Jun 2023',
+    location: 'SaaS-based Property Management System',
+    title: 'InnRoad',
+    content: (
+      <p>
+        A SaaS-based property management solution designed for efficient hotel management.<br/>
+        • Contributed to the UnitOwners module, empowering property owners to efficiently track reservations, manage accounting, and oversee room management activities.<br/>
+        • Developed a semantic search engine using vector embeddings to allow hotel staff to search bookings, guest records, and policies in natural language.<br/>
+        • Added AI-based sentiment analysis for guest feedback and reviews to help identify service improvement areas.<br/>
+        • Enhanced system performance by improving API response time by 30% by implementing caching mechanisms, refactoring code for efficiency, and optimizing database queries.<br/>
+        • Reduced QA cycle time by 20% by automating 100+ test cases and developing detailed unit and integration tests to validate software functionality.
+      </p>
+    ),
+  },
+  {
+    date: 'Jul 2020 - Jun 2022',
+    location: 'Online Healthcare & Pharmacy Platform',
+    title: 'Treated.com',
+    content: (
+      <p>
+        Treated.com is a GPhC-regulated online pharmacy with CQC-licensed clinicians, providing digital health consultations and prescription services across the UK, Europe, USA, and Canada.<br/>
+        • Contributed to building and enhancing a secure online consultation and prescription management system, ensuring compliance with GPhC and CQC regulations.<br/>
+        • Developed and optimized RESTful APIs for patient profiles, consultations, prescriptions, and order workflows.<br/>
+        • Implemented role-based authentication and data encryption to protect patient information and ensure GDPR compliance.<br/>
+        • Improved backend performance and scalability, enabling faster consultation processing and order handling.<br/>
+        • Collaborated with cross-functional teams to enhance user experience, integrating real-time health recommendations and order tracking.
+      </p>
+    ),
+  },
+  {
+    date: 'Apr 2016 - Dec 2018',
+    location: 'Wholesale E-Commerce Platform (USA)',
+    title: 'Africa Imports',
+    content: (
+      <p>
+        Contributed to the modernization of Africa Imports, the USA’s largest African wholesale supplier<br/>
+        • Migrated the legacy database into the nopCommerce structure, improving data consistency and performance.<br/>
+        • Integrated custom plugins and APIs within nopCommerce to extend core functionalities and streamline business workflows.<br/>
+        • Implemented caching and query optimization, improving page load speed and system scalability.<br/>
+        • Enhanced frontend–backend integration for smoother product, order, and inventory workflows.<br/>
+        • Improved database queries and indexing to support high-volume transactions.
       </p>
     ),
   },
