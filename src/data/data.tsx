@@ -62,7 +62,7 @@ export const SectionId = {
   Projects: 'projects',
   Education: 'education',
   Stats: 'stats',
-  Testimonials: 'testimonials',
+  Testimonials: 'recommendations',
 } as const;
 
 export type SectionId = typeof SectionId[keyof typeof SectionId];
@@ -472,18 +472,28 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'Zibran Akhtar',
+      name: 'Asmara Rahat (Project Manager)',
+      text: 'I had the opportunity to work with Hiteshkumar Vaghasiya on the same team, and he consistently impressed me with his technical expertise and attention to detail. He is highly skilled, analytical, and dedicated to delivering quality results. His problem-solving abilities and precision make him a valuable asset to any team. I highly recommend him for roles requiring strong technical acumen and a keen eye for detail.',
+      image: '',
+    },
+    {
+      name: 'Zibran Akhtar (Full Stack Developer)',
       text: 'I had the pleasure of working with Hitesh and I must say his skills are truly exceptional. What impressed me the most was his ability to work on minimal input, yet still produce high-quality results. I highly recommend him for any future opportunities.',
       image: '',
     },
     {
-      name: 'Hayam Seireg',
-      text: 'Hiteshkumar is very curious and hardworking nature which has helped him to master different skills. He is very open-minded, flexible, and a fast learner which makes him a great asset to any team, I highly recommend him.',
+      name: 'Hayam Seireg (Technical Lead)',
+      text: 'I have had the pleasure of working closely with Hiteshkumar and can attest to their exceptional skills and expertise. As a Senior Full Stack Software Engineer, Hiteshkumar has proven to be a highly skilled and experienced professional, capable of delivering top-quality results on a consistent basis.',
       image: '',
     },
     {
-      name: 'Rajibashree Biswas',
+      name: 'Rajibashree Biswas (Project Manager)',
       text: 'Hiteshkumar is very good .Net developer and well experienced in IT software industry. I have worked with him and found to be very sincere and hardworking employee. I wish him a very bright future in this industry with his valuable contribution in every job he is assigned.',
+      image: '',
+    },
+    {
+      name: 'Vicky Patel (Team Lead)',
+      text: 'I rarely come across real talents who stand out like Hiteshkumar. I had the pleasure of working with Hiteshkumar at GCIT, collaborating on several project teams. Hiteshkumar\'s ability to handle multiple projects was unlike any I’ve seen before and made a dramatic increase in the productivity level of our company.',
       image: '',
     },
   ],
