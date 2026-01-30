@@ -404,8 +404,8 @@ export const experience: TimelineItem[] = [
  */
 export const projects: TimelineItem[] = [
   {
-    date: 'Jun 2023 - Present',
-    location: 'Shipment Management System',
+    date: 'June 2023 - Present',
+    location: 'Logistics Management System',
     title: 'Customs Dashboard',
     content: (
       <p>
@@ -419,7 +419,7 @@ export const projects: TimelineItem[] = [
     ),
   },
   {
-    date: 'Jun 2022 - Jun 2023',
+    date: 'June 2022 - June 2023',
     location: 'SaaS-based Property Management System',
     title: 'InnRoad',
     content: (
@@ -434,8 +434,8 @@ export const projects: TimelineItem[] = [
     ),
   },
   {
-    date: 'Jul 2020 - Jun 2022',
-    location: 'Online Healthcare & Pharmacy Platform',
+    date: 'July 2020 - June 2022',
+    location: 'Health Consultation & Prescription Management System',
     title: 'Treated.com',
     content: (
       <p>
@@ -449,16 +449,16 @@ export const projects: TimelineItem[] = [
     ),
   },
   {
-    date: 'Apr 2016 - Dec 2018',
-    location: 'Wholesale E-Commerce Platform (USA)',
+    date: 'April 2016 - December 2018',
+    location: 'Wholesale E-Commerce Platform',
     title: 'Africa Imports',
     content: (
       <p>
-        Contributed to the modernization of Africa Imports, the USA’s largest African wholesale supplier<br/>
+        Africa Imports is the USA's largest African wholesale supplier, providing a wide range of African products to retailers across the country.<br/>
         • Migrated the legacy database into the nopCommerce structure, improving data consistency and performance.<br/>
         • Integrated custom plugins and APIs within nopCommerce to extend core functionalities and streamline business workflows.<br/>
         • Implemented caching and query optimization, improving page load speed and system scalability.<br/>
-        • Enhanced frontend–backend integration for smoother product, order, and inventory workflows.<br/>
+        • Enhanced frontend/backend integration for smoother product, order, and inventory workflows.<br/>
         • Improved database queries and indexing to support high-volume transactions.
       </p>
     ),
