@@ -31,6 +31,8 @@ const Page: NextPage<HomepageMeta> = memo(({children, siteUrl, title, descriptio
         {/* Twitter: https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/markup */}
         <meta content={title} name="twitter:title" />
         <meta content={description} name="twitter:description" />
+
+        <meta name="google-site-verification" content="Guoy3JOiTWRsBgsWya7PcNCcNSjsddwKF5HNS3JxT0M" />
       </Head>
       {children}
     </>
