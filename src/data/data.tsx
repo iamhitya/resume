@@ -93,7 +93,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: 'https://drive.google.com/file/d/15ugo5crjfWYz-DDoCGtS7o3eCAhPxLd9/view',
+      href: 'https://drive.usercontent.google.com/u/0/uc?id=15ugo5crjfWYz-DDoCGtS7o3eCAhPxLd9&export=download',
       text: 'Download Resume',
       primary: true,
       Icon: DownloadIcon,
