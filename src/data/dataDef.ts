@@ -4,9 +4,10 @@ import {FC, SVGProps} from 'react';
 import {IconProps} from '../components/Icon/Icon';
 
 export interface HomepageMeta {
+  siteUrl?: string;
   title: string;
   description: string;
-  siteUrl?: string;
+  keywords?: string;
   ogImageUrl?: string;
   twitterCardType?: 'summary' | 'summary_large';
   twitterTitle?: string;

@@ -48,6 +48,7 @@ export const homePageMeta: HomepageMeta = {
   siteUrl: 'https://hiteshkumar.is-a.dev',
   title: 'Hiteshkumar | GenAI .NET Developer Resume',
   description: "Hiteshkumar Vaghasiya - Senior GenAI & Full Stack .NET Developer with 11+ years of experience in .NET Core, Azure, Angular, Microservices, and AI Engineering. Explore my portfolio, technical skills, certifications, and professional projects in enterprise software development.",
+  keywords: "Software Developer, Full Stack Developer, .NET Developer, Senior Software Engineer, Backend Developer, Frontend Developer, Remote Software Engineer, Hire Software Developer, Software Development Expert, GenAI Developer, AI Engineer, Machine Learning Engineer, LLM Developer, ChatGPT Integration, OpenAI Developer, Azure AI Developer, Prompt Engineer, RAG Developer, Vector Database, Semantic Search, .NET Core Developer, C# Developer, ASP.NET Developer, Microservices Developer, REST API Developer, Web API, GraphQL Developer, Cloud Developer, Azure Developer, AWS Developer, Angular Developer, React Developer, TypeScript Developer, JavaScript Developer, SQL Developer, MongoDB Developer, NoSQL Expert, API Integration Specialist, Enterprise Software Developer, SaaS Developer, Agile Developer, Scrum Master, Technical Lead, Software Architect, Code Quality Expert, Performance Optimization, System Design, Scalable Applications, Tech Stack Expert",
 };
 
 /**
